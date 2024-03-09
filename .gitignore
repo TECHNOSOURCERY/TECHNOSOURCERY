@@ -25,6 +25,10 @@
 /world/
 screenshots/
 /modernfix
+/shaderpacks
+/server-resource-packs
+/patchouli_books
+/coremods
 
 # flies
 servers.dat
