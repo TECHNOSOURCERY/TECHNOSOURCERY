@@ -44,7 +44,3 @@ config.json
 # MacOSX
 .DS_Store
 .DS_Store?
-
-# MacOSX
-.DS_Store
-.DS_Store?
