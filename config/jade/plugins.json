@@ -130,6 +130,9 @@
     "hud": true,
     "hud.redstone": true
   },
+  "mysticalagradditions": {
+    "infused_farmland": true
+  },
   "appliedcooking": {
     "kitchen_station": true
   },
@@ -142,6 +145,11 @@
     "sink": true,
     "milk_jar": true,
     "toaster": true
+  },
+  "mysticalagriculture": {
+    "infused_farmland": true,
+    "crop": true,
+    "inferium_crop": true
   },
   "storagedrawers": {
     "display.stacklimit": true,
