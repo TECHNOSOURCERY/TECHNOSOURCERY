@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aa"
+	group: ""
+	id: "009B63CC07329583"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "3AAD80CC89A7901A"
+		tasks: [{
+			id: "4639CE3881482CBB"
+			item: {
+				Count: 1b
+				id: "itemfilters:tag"
+				tag: {
+					value: "minecraft:oak_logs"
+				}
+			}
+			title: "Any #minecraft:oak_logs"
+			type: "item"
+		}]
+		x: -1.5d
+		y: 0.0d
+	}]
+	title: "aa"
+}
