@@ -1,3 +1,11 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [
+		{ id: "5A5632337D17AF58", title: "INTRODUCTON" }
+		{ id: "2AC37FA89D67299E", title: "EARLY GAME" }
+		{ id: "2323071D0F118CC6", title: "EARLY MID GAME" }
+		{ id: "0A7E85E54949390C", title: "MID GAME" }
+		{ id: "2C031A0B7D8FE116", title: "LATE MID GAME" }
+		{ id: "1A2D2B4F918ECEBE", title: "END GAME" }
+		{ id: "6977794488E6B59B", title: "CHALLENGES" }
+	]
 }
