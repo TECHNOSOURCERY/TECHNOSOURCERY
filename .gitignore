@@ -42,6 +42,7 @@ usercache.json
 usernamecache.json
 fancymenu_data/last_world.fmdata
 .qmenu_opened.marker
+oculus.properties
 
 # config
 config/emi.css
