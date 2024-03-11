@@ -29,7 +29,8 @@ screenshots/
 /server-resource-packs
 /patchouli_books
 /coremods
-/sound_physics_remastered/
+/config/sound_physics_remastered
+/config/jecalculation
 
 # flies
 servers.dat
