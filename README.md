@@ -1,3 +1,0 @@
-# TechnoSourcery
-
-wip

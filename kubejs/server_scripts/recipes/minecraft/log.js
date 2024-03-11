@@ -1,2 +1,0 @@
-console.info('minecraft loaded')
-
