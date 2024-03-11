@@ -44,7 +44,9 @@ usercache.json
 usernamecache.json
 fancymenu_data/last_world.fmdata
 .qmenu_opened.marker
-oculus.properties
+config/oculus.properties
+config/quark-common.toml
+config/jecalculation/record.json
 
 # config
 config/emi.css
@@ -56,3 +58,5 @@ config.json
 # MacOSX
 .DS_Store
 .DS_Store?
+
+

@@ -351,7 +351,7 @@ _version = 2
 			# NAME_IP: Example: "Minecraft Server IP 192.168.1.40" 
 			# NAME_IP_PORT: Example: "Minecraft Server IP 192.168.1.40:25565"NAME_IP_PORT_MC_VERSION: Example: "Minecraft Server IP 192.168.1.40:25565 GameVersion 1.16.5"
 			# 
-			serverFolderNameMode = "NAME_ONLY"
+			serverFolderNameMode = "NAME_IP_PORT_MC_VERSION"
 			# AKA: Multiverse support. 
 			# 
 			# When matching levels (dimensions) of the same type (overworld, nether, etc.) the 
