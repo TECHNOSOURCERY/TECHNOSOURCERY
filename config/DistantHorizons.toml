@@ -565,7 +565,7 @@ _version = 2
 			# DEBUG: Debug testing renderer 
 			# DISABLED: Disable rendering
 			# 
-			rendererMode = "DISABLED"
+			rendererMode = "DEFAULT"
 			# Should specialized colors/rendering modes be used? 
 			# 
 			# OFF: Fake chunks will be drawn with their normal colors. 
