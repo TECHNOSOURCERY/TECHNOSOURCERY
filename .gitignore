@@ -47,6 +47,7 @@ fancymenu_data/last_world.fmdata
 config/oculus.properties
 config/quark-common.toml
 config/jecalculation/record.json
+config/embeddium++.toml
 
 # config
 config/emi.css
@@ -58,5 +59,6 @@ config.json
 # MacOSX
 .DS_Store
 .DS_Store?
+
 
 
