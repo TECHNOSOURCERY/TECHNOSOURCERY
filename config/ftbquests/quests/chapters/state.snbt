@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "state"
+	group: "6977794488E6B59B"
+	id: "5CA9F072ACEC7A52"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5568E0E5FE19B0EB"
+			tasks: [{
+				id: "3EAA36C1B9F5DD99"
+				stat: "lootr:looted_stat"
+				type: "stat"
+				value: 1
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			id: "235B9A514726398A"
+			tasks: [{
+				id: "1E5085255890B231"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 5000
+			}]
+			x: -1.5d
+			y: 20.5d
+		}
+		{
+			id: "7636A9AB60E8590C"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:leather_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "31CD5465F5A70B8E"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 5000000
+			}]
+			x: 1.0d
+			y: 20.5d
+		}
+	]
+	title: "STATS"
+}

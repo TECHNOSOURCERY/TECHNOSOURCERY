@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "arcanist"
+	group: "2323071D0F118CC6"
+	icon: "ars_nouveau:creative_spell_book"
+	id: "40822DD5B2BEB38C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Arcanist"
+}
