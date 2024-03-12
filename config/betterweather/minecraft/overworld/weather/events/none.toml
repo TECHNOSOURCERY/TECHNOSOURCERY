@@ -1,0 +1,34 @@
+#Target Weather Event's Registry ID to configure settings for in this config.
+type = "betterweather:none"
+
+[clientSettings]
+	#Target Weather Event's Registry ID to configure settings for in this config.
+	type = "betterweather:none"
+
+	[clientSettings.colorSettings]
+		#The strength of this world's cloud color blend towards the value of "cloudTargetHexColor".
+		#Range: 0 - 1.0
+		cloudColorBlendStrength = 0.0
+		#Blends this world's grass color towards this value. Blend strength is determined by the value of "cloudColorBlendStrength".
+		cloudTargetHexColor = ""
+		#The strength of this world's fog color blend towards the value of "fogTargetHexColor".
+		#Range: 0 - 1.0
+		fogColorBlendStrength = 0.0
+		#Blends the world's fog color towards this value. Blend strength is determined by the value of "fogColorBlendStrength".
+		fogTargetHexColor = ""
+		#The strength of this world's sky color blend towards the value of "foliageTargetHexColor".
+		#Range: 0 - 1.0
+		foliageColorBlendStrength = 0.0
+		#Blends this world's foliage color towards this value. Blend strength is determined by the value of "foliageColorBlendStrength".
+		foliageTargetHexColor = ""
+		#The strength of this world's grass color blend towards the value of "grassTargetHexColor".
+		#Range: 0 - 1.0
+		grassColorBlendStrength = 0.0
+		#Blends this world's grass color towards this value. Blend strength is determined by the value of "grassColorBlendStrength".
+		grassTargetHexColor = ""
+		#The strength of this world's sky color blend towards the value of "skyTargetHexColor".
+		#Range: 0 - 1.0
+		skyColorBlendStrength = 0.0
+		#Blends this world's grass color towards this value. Blend strength is determined by the value of "skyColorBlendStrength".
+		skyTargetHexColor = ""
+

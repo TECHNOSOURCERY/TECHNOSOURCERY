@@ -1,0 +1,11 @@
+#Force per dimension world gen data pack registries?
+#WARNING: This will force a per dimension world gen data pack registry, this may have unintended side effects like mod incompatibilities.
+forcePerDimensionRegistry = false
+#Serialize configs(besides this one) to json?
+useJsonSerializer = false
+#What dimensions have weather events?
+#Dimension IDs ONLY.
+#WARNING: If the number of listed weather dimensions exceeds 1 or if the listed weather & season dimension(s) do not match, the dimensions listed will use a per dimension world gen data pack registry, this may have unintended side effects like mod incompatibilities.
+#Default: ["minecraft:overworld"]
+weatherEventDimensionWhitelist = ["minecraft:overworld"]
+
