@@ -33,7 +33,7 @@ jobs:
           state-name: ./.sync-state.json
           local-dir: ./
           server-dir: ./
-          protocol: ftps-legacy
+          protocol: ftps
           timeout: 60000
           exclude: |
                   **/.git*
