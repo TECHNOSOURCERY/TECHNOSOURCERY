@@ -1,0 +1,8 @@
+
+#DynmapBlockScan settings
+[settings]
+	#Which modules to exclude
+	exclude_modules = ["minecraft"]
+	#Which block names to exclude
+	exclude_blocknames = []
+
