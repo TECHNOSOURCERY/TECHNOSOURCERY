@@ -2,9 +2,10 @@ name: sync to minecraft server
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push but only for the main branch
-  push:
-    branches: [ main ]
+  # プッシュ時に走ると月3000分の無料枠超えちゃうからコメントアウト
+  # # Triggers the workflow on push but only for the main branch
+  # push:
+  #   branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -32,3 +33,8 @@ jobs:
           local-dir: ./
           server-dir: ./
           protocol: ftps
+          exclude: |
+                  **/.git*
+                  **/.git*/**
+                  **/.vscode/**
+                  **/config/ftbquests/
