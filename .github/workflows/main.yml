@@ -30,9 +30,11 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: ${{ secrets.FTP_PORT }}
+          state-name: ./.sync-state.json
           local-dir: ./
           server-dir: ./
-          protocol: ftps
+          protocol: ftps-legacy
+          timeout: 60000
           exclude: |
                   **/.git*
                   **/.git*/**
