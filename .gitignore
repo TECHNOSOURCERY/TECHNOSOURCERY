@@ -48,6 +48,8 @@ config/oculus.properties
 config/quark-common.toml
 config/jecalculation/record.json
 config/embeddium++.toml
+TrashSlotSaveState.json
+config/embeddium*.json
 
 # config
 config/emi.css
