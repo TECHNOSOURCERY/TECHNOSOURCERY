@@ -33,5 +33,5 @@ jobs:
         port: 21
         local_dir: ./
         remote_dir: /
-        exclude: .vscode,.git,.github,.DS_Store,README*,LICENSE,./ftbquests,./fancymenu
+        exclude: ['.vscode','.git','.github','.DS_Store','README*','LICENSE','**./ftbquests','**./fancymenu']
         dry_run: False
