@@ -37,4 +37,5 @@ jobs:
                   **/.git*
                   **/.git*/**
                   **/.vscode/**
-                  **/config/ftbquests/
+                  **/config/ftbquests/**
+                  **/config/fancymenu/**
