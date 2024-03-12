@@ -1,3 +1,0 @@
-#Do weather events change biome vegetation colors? This will cause chunks to refresh (F3+A).
-changeBiomeColors = true
-
