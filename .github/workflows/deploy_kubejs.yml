@@ -1,4 +1,4 @@
-name: 🚀 Deploy to the minecraft server
+name: 🚀 Deploy kubejs folder to the minecraft server
 
 # Controls when the workflow will run
 on:
