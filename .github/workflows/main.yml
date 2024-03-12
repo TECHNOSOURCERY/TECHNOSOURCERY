@@ -2,7 +2,6 @@ name: sync to minecraft server
 
 # Controls when the workflow will run
 on:
-  # プッシュ時に走ると月3000分の無料枠超えちゃうからコメントアウト
   # # Triggers the workflow on push but only for the main branch
   # push:
   #   branches: [ main ]
@@ -26,16 +25,10 @@ jobs:
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          protocol: ftps
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: ${{ secrets.FTP_PORT }}
           local-dir: ./
           server-dir: ./
-          exclude: |
-                  **/.git*
-                  **/.git*/**
-                  **/.vscode/**
-                  **/config/ftbquests/**
-                  **/config/fancymenu/**
+          protocol: ftps
