@@ -1,0 +1,6 @@
+{
+	"removed": [
+		"item:mekanism:creative_chemical_tank",
+		"item:mekanism:creative_fluid_tank"
+	]
+}

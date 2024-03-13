@@ -19,6 +19,6 @@ function emiHideItems(itemsToHide) {
     JsonIO.write("kubejs/assets/emi/index/stacks/emi_hidden_mekanism.json", obj);
   }
   
-  let itemList = [];
+  let itemList = ["mekanism:creative_chemical_tank", "mekanism:creative_fluid_tank"];
   
   emiHideItems(itemList);
