@@ -20,31 +20,35 @@ ServerEvents.recipes((events) => {
       D: "mekanism:steel_casing",
     }
   )
-})
 
-ServerEvents.recipes((events) => {
+  events.remove({
+    input: [
+      "mekanism:energized_smelter",
+      "mekanism:crusher",
+      "mekanism:enrichment_chamber",
+      "mekanism:osmium_compressor",
+      "mekanism:chemical_purification_chamber",
+      "mekanism:combiner",
+      "mekanism:chemical_injection_chamber",
+      "mekanism:metallurgic_infuser",
+      "mekanism:precision_sawmill",
+    ],
+  })
+
+  // events.remove({mod: "mekanism", not: {output: /:.*meka_/}})
+
   //remove basic factory recipes
   events.remove({
-    output: [
+    input: [
       "mekenism:basic_smelting_factory",
       "mekenism:basic_enriching_factory",
       "mekenism:basic_crushing_factory",
+      "mekenism:basic_compressing_factory",
+      "mekenism:basic_combining_factory",
+      "mekenism:basic_injecting_factory",
+      "mekenism:basic_purifying_factory",
+      "mekenism:basic_infusing_factory",
+      "mekenism:basic_sawing_factory",
     ],
   })
-  events.remove({output: "mekenism:basic_compressing_factory"})
-  events.remove({output: "mekenism:basic_combining_factory"})
-  events.remove({output: "mekenism:basic_injecting_factory"})
-  events.remove({output: "mekenism:basic_purifying_factory"})
-  events.remove({output: "mekenism:basic_infusing_factory"})
-  events.remove({output: "mekenism:basic_sawing_factory"})
-  //remove advanced factory recipes
-  events.remove({output: "mekenism:advanced_smelting_factory"})
-  events.remove({output: "mekenism:advanced_enriching_factory"})
-  events.remove({output: "mekenism:advanced_crushing_factory"})
-  events.remove({output: "mekenism:advanced_compressing_factory"})
-  events.remove({output: "mekenism:advanced_combining_factory"})
-  events.remove({output: "mekenism:advanced_injecting_factory"})
-  events.remove({output: "mekenism:advanced_purifying_factory"})
-  events.remove({output: "mekenism:advanced_infusing_factory"})
-  events.remove({output: "mekenism:advanced_sawing_factory"})
 })

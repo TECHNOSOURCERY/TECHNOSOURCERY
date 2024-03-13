@@ -1,6 +1,24 @@
 {
 	"removed": [
 		"item:mekanism:creative_chemical_tank",
-		"item:mekanism:creative_fluid_tank"
+		"item:mekanism:creative_fluid_tank",
+		"item:mekenism:basic_smelting_factory",
+		"item:mekenism:basic_enriching_factory",
+		"item:mekenism:basic_crushing_factory",
+		"item:mekenism:basic_compressing_factory",
+		"item:mekenism:basic_combining_factory",
+		"item:mekenism:basic_injecting_factory",
+		"item:mekenism:basic_purifying_factory",
+		"item:mekenism:basic_infusing_factory",
+		"item:mekenism:basic_sawing_factory",
+		"item:mekenism:advanced_smelting_factory",
+		"item:mekenism:advanced_enriching_factory",
+		"item:mekenism:advanced_crushing_factory",
+		"item:mekenism:advanced_compressing_factory",
+		"item:mekenism:advanced_combining_factory",
+		"item:mekenism:advanced_injecting_factory",
+		"item:mekenism:advanced_purifying_factory",
+		"item:mekenism:advanced_infusing_factory",
+		"item:mekenism:advanced_sawing_factory"
 	]
 }
