@@ -31,6 +31,7 @@ screenshots/
 /coremods
 /config/sound_physics_remastered
 /config/jecalculation
+/.vscode
 
 # flies
 servers.dat
