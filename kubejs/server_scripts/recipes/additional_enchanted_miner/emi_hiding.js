@@ -16,9 +16,9 @@ function emiHideItems(itemsToHide) {
       obj.removed.push(`item:${i}`);
     });
   
-    JsonIO.write("kubejs/assets/emi/index/stacks/example_hidden_stacks.json", obj);
+    JsonIO.write("kubejs/assets/emi/index/stacks/emi_hidden_additional_enchanted_miner.json", obj);
   }
   
-  let exampleList = ["quarryplus:adv_quarry"];
+  let itemList = ["quarryplus:adv_quarry"];
   
-  emiHideItems(exampleList);
+  emiHideItems(itemList);
