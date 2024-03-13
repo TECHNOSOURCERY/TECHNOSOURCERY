@@ -1,12 +1,10 @@
 require 'net/ftp'
 require 'yaml'
-
-# ファイルアップロード
 def upload_file(ftp, local_filepath, remote_filepath)
   file_size = File.size(local_filepath)
   uploaded_size = 0
+  #進捗がわかるようMB単位でログを出力
   File.open(local_filepath, 'rb') do |file|
-    #プログレスをMB単位で出力
     ftp.storbinary("STOR #{remote_filepath}", file, Net::FTP::DEFAULT_BLOCKSIZE) do |data|
       uploaded_size += data.size
       progress_percent = (uploaded_size.to_f / file_size) * 100
@@ -16,27 +14,31 @@ def upload_file(ftp, local_filepath, remote_filepath)
   end
   puts "" # 改行を追加
 end
+def excluded?(path, exclude_list)
+  exclude_list.any? {|excluded_item| path[/(^|\/)#{Regexp.escape(excluded_item)}(\/|$)/]}
+end
 
-#ディレクトリ検知
-def upload_directory(ftp, local_dir, remote_dir, exclude_list = [])
+def upload_directory(ftp, local_dir, remote_dir, exclude_list)
   Dir.foreach(local_dir) do |entry|
-    next if entry == '.' || entry == '..' || exclude_list.include?(entry)
+    next if ['.', '..'].include?(entry)
     local_path = File.join(local_dir, entry)
     remote_path = File.join(remote_dir, entry)
     if File.directory?(local_path)
+      next if excluded?(local_path, exclude_list)
       begin
+        puts "Creating directory : " + remote_path
         ftp.mkdir(remote_path)
       rescue Net::FTPPermError
-        # Ignore if the directory already exists
+        # サーバー上にディレクトリがあればそのまま実行
       end
       upload_directory(ftp, local_path, remote_path, exclude_list)
     else
+      next if excluded?(local_path, exclude_list)
       upload_file(ftp, local_path, remote_path)
     end
   end
 end
-
-# 設定ファイルを読み込む
+# YAMLからコンフィグをロード
 config = YAML.load_file('config.yml')
 Net::FTP.open(config['ftp']['host'], config['ftp']['user'], config['ftp']['password']) do |ftp|
   ftp.passive = true
