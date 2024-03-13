@@ -16,10 +16,9 @@ function emiHideItems(itemsToHide) {
       obj.removed.push(`item:${i}`);
     });
   
-    JsonIO.write("kubejs/assets/emi/index/stacks/emi_hidden_dimentional_pockets.json", obj);
+    JsonIO.write("kubejs/assets/emi/index/stacks/emi_hidden_mystical_agriculture.json", obj);
   }
   
-  let itemList = ["dimensionalpocketsii:module_creative_energy", "dimensionalpocketsii:module_creative_fluid"];
-  
+  let itemList = [];
   
   emiHideItems(itemList);
