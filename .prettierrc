@@ -1,0 +1,8 @@
+{
+  "trailingComma": "es5",
+  "arrowParens": "always",
+  "quoteProps": "as-needed",
+  "semi": false,
+  "singleQuote": false,
+  "bracketSpacing": false
+}
