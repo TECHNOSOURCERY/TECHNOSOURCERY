@@ -50,6 +50,7 @@ config/jecalculation/record.json
 config/embeddium++.toml
 TrashSlotSaveState.json
 config/embeddium*.json
+config/embeddium-options.json
 deploy/all_files.yml
 deploy/only_config.yml
 deploy/only_kubejs.yml
@@ -64,6 +65,7 @@ config.json
 # MacOSX
 .DS_Store
 .DS_Store?
+
 
 
 
