@@ -16,10 +16,7 @@ function emiHideItems(itemsToHide) {
     obj.removed.push(`item:${i}`)
   })
 
-  JsonIO.write(
-    "kubejs/assets/emi/index/stacks/emi_hidden_twilight_forest.json",
-    obj
-  )
+  JsonIO.write("kubejs/assets/emi/index/stacks/emi_hidden_ae2.json", obj)
 }
 
 let itemList = []

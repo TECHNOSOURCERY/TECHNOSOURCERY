@@ -4,21 +4,24 @@
  * Takes a list of item ids and hides them from EMI.
  */
 function emiHideItems(itemsToHide) {
-    console.info("Hiding items from EMI...");
-  
-    // == Hide low-level enchants and modified potions
-  
-    let obj = {
-      removed: [],
-    };
-  
-    itemsToHide.forEach((i) => {
-      obj.removed.push(`item:${i}`);
-    });
-  
-    JsonIO.write("kubejs/assets/emi/index/stacks/emi_hidden_mekanism.json", obj);
+  console.info("Hiding items from EMI...")
+
+  // == Hide low-level enchants and modified potions
+
+  let obj = {
+    removed: [],
   }
-  
-  let itemList = ["mekanism:creative_chemical_tank", "mekanism:creative_fluid_tank"];
-  
-  emiHideItems(itemList);
+
+  itemsToHide.forEach((i) => {
+    obj.removed.push(`item:${i}`)
+  })
+
+  JsonIO.write("kubejs/assets/emi/index/stacks/emi_hidden_mekanism.json", obj)
+}
+
+let itemList = [
+  "mekanism:creative_chemical_tank",
+  "mekanism:creative_fluid_tank",
+]
+
+emiHideItems(itemList)
