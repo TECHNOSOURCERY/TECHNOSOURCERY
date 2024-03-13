@@ -1,3 +1,3 @@
 ServerEvents.recipes(event => {
-    event.remove({ id: 'quarryplus:creative_generator' })
+    event.remove({ id: "quarryplus:adv_quarry" })
 })
