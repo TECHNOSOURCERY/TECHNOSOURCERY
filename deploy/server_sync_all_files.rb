@@ -70,7 +70,7 @@ def upload_directory(ftp, local_dir, remote_dir, exclude_list, logger, base_dir)
   end
 end
 # 設定ファイルを読み込む
-config = YAML.load_file('config.yml')
+config = YAML.load_file('all_files.yml')
 # ベースディレクトリを事前に取得
 base_dir = File.expand_path(config['local_dir_to_upload'])
 # ftp接続情報を取得

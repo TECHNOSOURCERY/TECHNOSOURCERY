@@ -50,7 +50,9 @@ config/jecalculation/record.json
 config/embeddium++.toml
 TrashSlotSaveState.json
 config/embeddium*.json
-deploy/config.yml
+deploy/all_files.yml
+deploy/only_config.yml
+deploy/only_kubejs.yml
 
 # config
 config/emi.css
