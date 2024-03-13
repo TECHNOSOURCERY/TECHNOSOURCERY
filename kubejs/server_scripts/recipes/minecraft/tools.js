@@ -3,9 +3,9 @@ ServerEvents.recipes((events) => {
   // wooden pickaxe
   events.remove({output: "minecraft:wooden_pickaxe"})
   events.shaped(Item.of("minecraft:wooden_pickaxe"), ["AAA", "BCB", "BCB"], {
-    A: "minecraft:logs",
+    A: "#minecraft:logs",
     B: "minecraft:air",
-    C: "#forge:stick/wooden",
+    C: "#forge:rods/wooden",
   })
 
   // iron pickaxe
@@ -13,15 +13,15 @@ ServerEvents.recipes((events) => {
   events.shaped(Item.of("minecraft:iron_pickaxe"), ["AAA", "BCB", "BCB"], {
     A: "minecraft:iron_block",
     B: "minecraft:air",
-    C: "#forge:stick/wooden",
+    C: "#forge:rods/wooden",
   })
 
   // gold pickaxe
-  events.remove({output: "minecraft:gold_pickaxe"})
-  events.shaped(Item.of("minecraft:gold_pickaxe"), ["AAA", "BCB", "BCB"], {
+  events.remove({output: "minecraft:golden_pickaxe"})
+  events.shaped(Item.of("minecraft:golden_pickaxe"), ["AAA", "BCB", "BCB"], {
     A: "minecraft:gold_block",
     B: "minecraft:air",
-    C: "#forge:stick/wooden",
+    C: "#forge:rods/wooden",
   })
 
   // diamond pickaxe
@@ -29,8 +29,33 @@ ServerEvents.recipes((events) => {
   events.shaped(Item.of("minecraft:diamond_pickaxe"), ["AAA", "BCB", "BCB"], {
     A: "minecraft:diamond_block",
     B: "minecraft:air",
-    C: "#forge:stick/wooden",
+    C: "#forge:rods/wooden",
   })
 
-
+  // netherite pickaxe
+  events.remove({output: 'minecraft:netherite_pickaxe'})
+  events.custom({
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+          " AAA ",
+          "B C B",
+          "  C  ",
+          "  C  ",
+          "  C  "
+      ],
+      "key": {
+          "A": {
+              "item": "minecraft:netherite_block"
+          },
+          "B": {
+              "item": "armorplus:en_netherite",
+          },
+          "C": {
+              "item": "enderio:infinity_rod",
+          }
+      },
+      "result": {
+          "item": "minecraft:netherite_pickaxe"
+      }
+  })
 })
