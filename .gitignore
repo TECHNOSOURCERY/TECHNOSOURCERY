@@ -55,7 +55,6 @@ config/embeddium-options.json
 deploy/all_files.yml
 deploy/only_config.yml
 deploy/only_kubejs.yml
-kubejs/config/probejs.json
 config/embeddium-fingerprint.json
 config/chiselsandbits-client.toml
 config/chiselsandbits-common.toml
