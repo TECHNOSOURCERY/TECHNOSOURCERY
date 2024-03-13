@@ -34,21 +34,4 @@ ServerEvents.recipes((events) => {
       "mekanism:precision_sawmill",
     ],
   })
-
-  // events.remove({mod: "mekanism", not: {output: /:.*meka_/}})
-
-  //remove basic factory recipes
-  events.remove({
-    input: [
-      "mekenism:basic_smelting_factory",
-      "mekenism:basic_enriching_factory",
-      "mekenism:basic_crushing_factory",
-      "mekenism:basic_compressing_factory",
-      "mekenism:basic_combining_factory",
-      "mekenism:basic_injecting_factory",
-      "mekenism:basic_purifying_factory",
-      "mekenism:basic_infusing_factory",
-      "mekenism:basic_sawing_factory",
-    ],
-  })
 })
