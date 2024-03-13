@@ -50,6 +50,7 @@ config/jecalculation/record.json
 config/embeddium++.toml
 TrashSlotSaveState.json
 config/embeddium*.json
+deploy/config.yml
 
 # config
 config/emi.css
