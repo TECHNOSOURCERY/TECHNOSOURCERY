@@ -15,7 +15,7 @@ ServerEvents.recipes((events) => {
   })
 })
 
-  // wooden pickaxe
+  // gold pickaxe
   events.remove({output: "minecraft:iron_pickaxe"})
   events.shaped(Item.of("minecraft:iron_pickaxe"), ["AAA", " B ", " B "], {
     A: "minecraft:gold_block",
@@ -23,7 +23,7 @@ ServerEvents.recipes((events) => {
   })
 })
 
-  // wooden pickaxe
+  // diamond pickaxe
   events.remove({output: "minecraft:diamond_pickaxe"})
   events.shaped(Item.of("minecraft:diamond_pickaxe"), ["ACA", " B ", " B "], {
     A: "minecraft:logs",
@@ -32,3 +32,14 @@ ServerEvents.recipes((events) => {
   })
 })
 
+// netherite pickaxe
+  events.remove({output: "minecraft:netherite_pickaxe"})
+onEvent("recipes", event => {
+ event.custom({
+   type: "minecraft_netherite_pickaxe",
+   pattern: [" AAA ", "B   B", "  C  ", "  C  ", "  C  ",]
+   {
+   A: "minecraft:netherite_block"
+   B: "armorplus:en_netherite"
+   C: "enderio:infinity_rod"
+   }
