@@ -22,6 +22,12 @@ function emiHideItems(itemsToHide) {
   )
 }
 
-let itemList = []
-
+let itemList = ["twilightforest:uncrafting_table"]
 emiHideItems(itemList)
+
+if (itemList.length > 0) {
+  itemList.forEach((i) => {
+    global.foo.push(`${i}`)
+  })
+  jeiHideItems(global.foo)
+}

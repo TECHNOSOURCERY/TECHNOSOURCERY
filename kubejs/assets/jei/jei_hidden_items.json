@@ -1,0 +1,12 @@
+{
+	"target": [
+		"quarryplus:adv_quarry",
+		"dimensionalpocketsii:module_creative_energy",
+		"dimensionalpocketsii:module_creative_fluid",
+		"mekanism:creative_chemical_tank",
+		"mekanism:creative_fluid_tank",
+		"/mekanism:.*_bin/",
+		"/mekanism:.*_factory/",
+		"twilightforest:uncrafting_table"
+	]
+}

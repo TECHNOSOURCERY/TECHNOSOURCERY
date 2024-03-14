@@ -16,9 +16,19 @@ function emiHideItems(itemsToHide) {
     obj.removed.push(`item:${i}`)
   })
 
-  JsonIO.write("kubejs/assets/emi/index/stacks/emi_hidden_others.json", obj)
+  JsonIO.write(
+    "kubejs/assets/emi/index/stacks/emi_hidden_simple_storage_network.json",
+    obj
+  )
 }
 
 let itemList = []
 
 emiHideItems(itemList)
+
+if (itemList.length > 0) {
+  itemList.forEach((i) => {
+    global.foo.push(`${i}`)
+  })
+  jeiHideItems(global.foo)
+}

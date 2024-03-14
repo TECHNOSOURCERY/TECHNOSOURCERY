@@ -6,7 +6,10 @@ const jei = {
   recipes: {hidden: []},
 }
 
-jei.items.hidden = ["/mekanism:.*_factory/"]
+let jeiHideItems = JsonIO.read("kubejs/assets/jei/jei_hidden_items.json")
+for (var i in jeiHideItems) {
+  jei.items.hidden.push([i, jeiHideItems[i]])
+}
 
 jei.categories.hidden = [
   "twilightforest:uncrafting",

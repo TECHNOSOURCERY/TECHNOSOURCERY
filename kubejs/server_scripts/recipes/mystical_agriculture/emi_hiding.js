@@ -25,3 +25,10 @@ function emiHideItems(itemsToHide) {
 let itemList = []
 
 emiHideItems(itemList)
+
+if (itemList.length > 0) {
+  itemList.forEach((i) => {
+    global.foo.push(`${i}`)
+  })
+  jeiHideItems(global.foo)
+}

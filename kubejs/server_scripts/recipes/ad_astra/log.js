@@ -1,2 +1,1 @@
-console.info('ad_astra loaded')
-
+console.info("ad_astra loaded")

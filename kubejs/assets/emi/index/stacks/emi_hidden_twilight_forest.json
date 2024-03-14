@@ -1,3 +1,5 @@
 {
-	"removed": []
+	"removed": [
+		"item:twilightforest:uncrafting_table"
+	]
 }
