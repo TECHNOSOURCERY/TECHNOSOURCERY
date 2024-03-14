@@ -26,10 +26,9 @@ let itemList = [
   "/tombstone:scroll_.*/",
   "/guardvillagers:.*_spawn_egg/",
   "/quark:.*_spawn_egg/",
-  "/aquaculture:*_spawn_egg/",
-  "/aether:*_spawn_egg/",
-  "/cataclysm:*_spawn_egg/",
-  "/creeperoverhaul:*_spawn_egg/",
+  "/aquaculture:.*_spawn_egg/",
+  "/aether:.*_spawn_egg/",
+  "/creeperoverhaul:.*_spawn_egg/",
 ]
 
 emiHideItems(itemList)

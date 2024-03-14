@@ -3,6 +3,7 @@
 		"item:mekanism:creative_chemical_tank",
 		"item:mekanism:creative_fluid_tank",
 		"item:/mekanism:.*_bin/",
-		"item:/mekanism:.*_factory/"
+		"item:/mekanism:.*_factory/",
+		"item:/mekanismadditions:.*_spawn_egg/"
 	]
 }

@@ -97,7 +97,7 @@
 		[difficulty.meter.position]
 			#Position of the difficulty meter.
 			#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, CENTER_LEFT, CENTER, CENTER_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER, BOTTOM_RIGHT
-			anchor = "BOTTOM_LEFT"
+			anchor = "BOTTOM_RIGHT"
 			#Fine-tune the difficulty meter's position
 			#Range: > -2147483648
 			offsetX = 5

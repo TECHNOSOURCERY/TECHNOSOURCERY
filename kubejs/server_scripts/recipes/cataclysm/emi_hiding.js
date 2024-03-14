@@ -19,7 +19,7 @@ function emiHideItems(itemsToHide) {
   JsonIO.write("kubejs/assets/emi/index/stacks/emi_hidden_cataclysm.json", obj)
 }
 
-let itemList = []
+let itemList = ["/cataclysm:*_spawn_egg/"]
 
 emiHideItems(itemList)
 
