@@ -19,7 +19,7 @@ function emiHideItems(itemsToHide) {
   JsonIO.write("kubejs/assets/emi/index/stacks/emi_hidden_minecraft.json", obj)
 }
 
-let itemList = []
+let itemList = ["minecraft:enchanted_book", "/minecraft:.*_spawn_egg/"]
 
 emiHideItems(itemList)
 

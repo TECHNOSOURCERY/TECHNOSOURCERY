@@ -1,3 +1,6 @@
 {
-	"removed": []
+	"removed": [
+		"item:immersiveengineering:shader",
+		"item:/immersiveengineering:.*_spawn_egg/"
+	]
 }

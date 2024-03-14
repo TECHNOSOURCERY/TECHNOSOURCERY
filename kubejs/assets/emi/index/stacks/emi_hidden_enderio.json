@@ -1,3 +1,6 @@
 {
-	"removed": []
+	"removed": [
+		"item:enderio:filled_soul_vial",
+		"item:enderio:broken_spawner"
+	]
 }

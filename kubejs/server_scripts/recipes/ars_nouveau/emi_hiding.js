@@ -22,7 +22,7 @@ function emiHideItems(itemsToHide) {
   )
 }
 
-let itemList = []
+let itemList = ["/ars_noveau:*_se/"]
 
 emiHideItems(itemList)
 

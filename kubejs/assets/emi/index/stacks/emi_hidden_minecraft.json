@@ -1,3 +1,6 @@
 {
-	"removed": []
+	"removed": [
+		"item:minecraft:enchanted_book",
+		"item:/minecraft:.*_spawn_egg/"
+	]
 }

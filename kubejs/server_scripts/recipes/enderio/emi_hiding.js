@@ -19,7 +19,7 @@ function emiHideItems(itemsToHide) {
   JsonIO.write("kubejs/assets/emi/index/stacks/emi_hidden_enderio.json", obj)
 }
 
-let itemList = []
+let itemList = ["enderio:filled_soul_vial", "enderio:broken_spawner"]
 
 emiHideItems(itemList)
 

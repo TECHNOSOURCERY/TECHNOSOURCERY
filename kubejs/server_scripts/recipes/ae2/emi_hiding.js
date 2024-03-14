@@ -19,7 +19,7 @@ function emiHideItems(itemsToHide) {
   JsonIO.write("kubejs/assets/emi/index/stacks/emi_hidden_ae2.json", obj)
 }
 
-let itemList = []
+let itemList = ["ae2:facade"]
 
 emiHideItems(itemList)
 

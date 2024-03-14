@@ -1,12 +1,32 @@
 {
 	"target": [
 		"quarryplus:adv_quarry",
+		"/ad_astra:*_spawn_egg/",
+		"ae2:facade",
+		"/ars_noveau:*_se/",
 		"dimensionalpocketsii:module_creative_energy",
 		"dimensionalpocketsii:module_creative_fluid",
+		"enderio:filled_soul_vial",
+		"enderio:broken_spawner",
+		"immersiveengineering:shader",
+		"/immersiveengineering:.*_spawn_egg/",
 		"mekanism:creative_chemical_tank",
 		"mekanism:creative_fluid_tank",
 		"/mekanism:.*_bin/",
 		"/mekanism:.*_factory/",
-		"twilightforest:uncrafting_table"
+		"minecraft:enchanted_book",
+		"/minecraft:.*_spawn_egg/",
+		"chiselsandbits:block_bit",
+		"apotheosis:potion_charm",
+		"/alexsmobs:spawn_egg_.*/",
+		"/tombstone:scroll_.*/",
+		"/guardvillagers:.*_spawn_egg/",
+		"/quark:.*_spawn_egg/",
+		"/aquaculture:*_spawn_egg/",
+		"/aether:*_spawn_egg/",
+		"/cataclysm:*_spawn_egg/",
+		"/creeperoverhaul:*_spawn_egg/",
+		"twilightforest:uncrafting_table",
+		"/twilightforest:.*_spawn_egg/"
 	]
 }

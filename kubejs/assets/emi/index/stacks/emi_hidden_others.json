@@ -1,3 +1,14 @@
 {
-	"removed": []
+	"removed": [
+		"item:chiselsandbits:block_bit",
+		"item:apotheosis:potion_charm",
+		"item:/alexsmobs:spawn_egg_.*/",
+		"item:/tombstone:scroll_.*/",
+		"item:/guardvillagers:.*_spawn_egg/",
+		"item:/quark:.*_spawn_egg/",
+		"item:/aquaculture:*_spawn_egg/",
+		"item:/aether:*_spawn_egg/",
+		"item:/cataclysm:*_spawn_egg/",
+		"item:/creeperoverhaul:*_spawn_egg/"
+	]
 }

@@ -22,7 +22,10 @@ function emiHideItems(itemsToHide) {
   )
 }
 
-let itemList = ["twilightforest:uncrafting_table"]
+let itemList = [
+  "twilightforest:uncrafting_table",
+  "/twilightforest:.*_spawn_egg/",
+]
 emiHideItems(itemList)
 
 if (itemList.length > 0) {

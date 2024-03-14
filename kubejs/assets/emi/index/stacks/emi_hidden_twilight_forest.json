@@ -1,5 +1,6 @@
 {
 	"removed": [
-		"item:twilightforest:uncrafting_table"
+		"item:twilightforest:uncrafting_table",
+		"item:/twilightforest:.*_spawn_egg/"
 	]
 }

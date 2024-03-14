@@ -19,7 +19,7 @@ function emiHideItems(itemsToHide) {
   JsonIO.write("kubejs/assets/emi/index/stacks/emi_hidden_ad_astra.json", obj)
 }
 
-let itemList = []
+let itemList = ["/ad_astra:*_spawn_egg/"]
 
 emiHideItems(itemList)
 

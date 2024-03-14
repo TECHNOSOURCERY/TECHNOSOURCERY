@@ -25,6 +25,7 @@ let itemList = [
   "mekanism:creative_fluid_tank",
   "/mekanism:.*_bin/",
   "/mekanism:.*_factory/",
+  "/mekanismadditions:.*_spawn_egg/",
 ]
 
 emiHideItems(itemList)

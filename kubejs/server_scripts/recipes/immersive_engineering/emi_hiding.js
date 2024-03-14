@@ -22,7 +22,10 @@ function emiHideItems(itemsToHide) {
   )
 }
 
-let itemList = []
+let itemList = [
+  "immersiveengineering:shader",
+  "/immersiveengineering:.*_spawn_egg/",
+]
 
 emiHideItems(itemList)
 

@@ -19,7 +19,18 @@ function emiHideItems(itemsToHide) {
   JsonIO.write("kubejs/assets/emi/index/stacks/emi_hidden_others.json", obj)
 }
 
-let itemList = []
+let itemList = [
+  "chiselsandbits:block_bit",
+  "apotheosis:potion_charm",
+  "/alexsmobs:spawn_egg_.*/",
+  "/tombstone:scroll_.*/",
+  "/guardvillagers:.*_spawn_egg/",
+  "/quark:.*_spawn_egg/",
+  "/aquaculture:*_spawn_egg/",
+  "/aether:*_spawn_egg/",
+  "/cataclysm:*_spawn_egg/",
+  "/creeperoverhaul:*_spawn_egg/",
+]
 
 emiHideItems(itemList)
 
