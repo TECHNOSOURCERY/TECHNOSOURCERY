@@ -1,9 +1,10 @@
 {
 	"target": [
 		"quarryplus:adv_quarry",
-		"/ad_astra:*_spawn_egg/",
+		"/ad_astra:.*_spawn_egg/",
 		"ae2:facade",
-		"/ars_noveau:*_se/",
+		"/ars_noveau:.*_se/",
+		"/cataclysm:*_spawn_egg/",
 		"dimensionalpocketsii:module_creative_energy",
 		"dimensionalpocketsii:module_creative_fluid",
 		"enderio:filled_soul_vial",
@@ -23,10 +24,9 @@
 		"/tombstone:scroll_.*/",
 		"/guardvillagers:.*_spawn_egg/",
 		"/quark:.*_spawn_egg/",
-		"/aquaculture:*_spawn_egg/",
-		"/aether:*_spawn_egg/",
-		"/cataclysm:*_spawn_egg/",
-		"/creeperoverhaul:*_spawn_egg/",
+		"/aquaculture:.*_spawn_egg/",
+		"/aether:.*_spawn_egg/",
+		"/creeperoverhaul:.*_spawn_egg/",
 		"twilightforest:uncrafting_table",
 		"/twilightforest:.*_spawn_egg/"
 	]

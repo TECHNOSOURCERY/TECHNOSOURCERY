@@ -1,5 +1,5 @@
 {
 	"removed": [
-		"item:/ad_astra:*_spawn_egg/"
+		"item:/ad_astra:.*_spawn_egg/"
 	]
 }

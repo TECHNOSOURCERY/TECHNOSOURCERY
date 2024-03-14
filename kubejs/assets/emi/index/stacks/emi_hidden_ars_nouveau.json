@@ -1,5 +1,5 @@
 {
 	"removed": [
-		"item:/ars_noveau:*_se/"
+		"item:/ars_noveau:.*_se/"
 	]
 }

@@ -1,3 +1,5 @@
 {
-	"removed": []
+	"removed": [
+		"item:/cataclysm:*_spawn_egg/"
+	]
 }
