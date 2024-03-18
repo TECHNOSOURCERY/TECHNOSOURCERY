@@ -1,7 +1,7 @@
 const fs = require("fs")
 
 // JSONファイルのパス
-const filePath = "kubejs/server_scripts/itemid.json"
+const filePath = "kubejs/server_scripts/recipe.json"
 
 // ファイルを非同期で読み込む
 fs.readFile(filePath, "utf8", (err, data) => {
