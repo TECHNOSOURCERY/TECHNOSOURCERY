@@ -1,2 +1,1 @@
-console.info('others loaded')
-
+console.info("others loaded")

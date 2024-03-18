@@ -1,0 +1,28 @@
+{
+	"id": [
+		"immersiveengineering:wire_steel",
+		"ae2:white_glass_cable",
+		"immersiveengineering:wire_steel",
+		"ae2:white_glass_cable",
+		"immersiveengineering:hemp_fabric",
+		"ae2:white_glass_cable",
+		"immersiveengineering:wire_steel",
+		"ae2:white_glass_cable",
+		"immersiveengineering:wire_steel"
+	],
+	"remove": [
+		"more_immersive_wires:ae_coil"
+	],
+	"array": [
+		[
+			"ABA','BCB','ABA"
+		]
+	],
+	"mapping": [
+		{
+			"A": "immersiveengineering:wire_steel",
+			"B": "ae2:white_glass_cable",
+			"C": "immersiveengineering:hemp_fabric"
+		}
+	]
+}

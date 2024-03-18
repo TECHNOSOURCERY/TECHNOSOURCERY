@@ -59,6 +59,7 @@ config/embeddium-fingerprint.json
 config/chiselsandbits-client.toml
 config/chiselsandbits-common.toml
 config/ae2/client.json
+ftp_upload.log*
 
 # config
 config/emi.css
