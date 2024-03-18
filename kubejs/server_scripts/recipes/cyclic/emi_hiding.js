@@ -19,7 +19,22 @@ function emiHideItems(itemsToHide) {
   JsonIO.write("kubejs/assets/emi/index/stacks/emi_hidden_cyclic.json", obj)
 }
 
-let itemList = []
+let itemList = [
+  "cyclic:crafter",
+  "cyclic:uncrafter",
+  "cyclic:harvester",
+  "cyclic:forester",
+  "cyclic:miner",
+  "cyclic:collector_fluid",
+  "cyclic:generator_item",
+  "cyclic:generator_fluid",
+  "cyclic:generator_food",
+  "cyclic:generator_fuel",
+  "cyclic:wireless_energy",
+  "cyclic:wireless_item",
+  "cyclic:wireless_fluid",
+  "cyclic:experience_pylon",
+]
 
 emiHideItems(itemList)
 

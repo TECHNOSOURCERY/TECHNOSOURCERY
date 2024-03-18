@@ -1,28 +1,61 @@
 {
 	"id": [
-		"immersiveengineering:wire_steel",
-		"ae2:white_glass_cable",
-		"immersiveengineering:wire_steel",
-		"ae2:white_glass_cable",
-		"immersiveengineering:hemp_fabric",
-		"ae2:white_glass_cable",
-		"immersiveengineering:wire_steel",
-		"ae2:white_glass_cable",
-		"immersiveengineering:wire_steel"
+		"quarryplus:solid_fuel_quarry",
+		"quarryplus:mining_well",
+		"quarryplus:book_mover",
+		"quarryplus:adv_pump",
+		"quarryplus:mini_quarry",
+		"quarryplus:waterlogged_marker",
+		"quarryplus:waterlogged_flex_marker",
+		"quarryplus:waterlogged_marker16",
+		"quarryplus:placer_plus",
+		"quarryplus:remote_placer",
+		"quarryplus:spawner_controller",
+		"quarryplus:creative_generator",
+		"quarryplus:replacer_module",
+		"quarryplus:remove_bedrock_module",
+		"quarryplus:filler_module",
+		"quarryplus:repeat_tick_module"
 	],
 	"remove": [
-		"more_immersive_wires:ae_coil"
+		"quarryplus:replacer"
 	],
 	"array": [
 		[
-			"ABA','BCB','ABA"
+			"ABC','DEF','GHI','undefinedundefinedundefined','undefinedundefinedundefined','undefined"
 		]
 	],
 	"mapping": [
 		{
-			"A": "immersiveengineering:wire_steel",
-			"B": "ae2:white_glass_cable",
-			"C": "immersiveengineering:hemp_fabric"
+			"A": "quarryplus:solid_fuel_quarry",
+			"B": "quarryplus:mining_well",
+			"C": "quarryplus:book_mover",
+			"D": "quarryplus:adv_pump",
+			"E": "quarryplus:mini_quarry",
+			"F": "quarryplus:waterlogged_marker",
+			"G": "quarryplus:waterlogged_flex_marker",
+			"H": "quarryplus:waterlogged_marker16",
+			"I": "quarryplus:placer_plus",
+			"undefined": "quarryplus:repeat_tick_module"
 		}
+	],
+	"allids": [
+		"quarryplus:solid_fuel_quarry",
+		"quarryplus:mining_well",
+		"quarryplus:book_mover",
+		"quarryplus:replacer",
+		"quarryplus:adv_pump",
+		"quarryplus:mini_quarry",
+		"quarryplus:waterlogged_marker",
+		"quarryplus:waterlogged_flex_marker",
+		"quarryplus:waterlogged_marker16",
+		"quarryplus:placer_plus",
+		"quarryplus:remote_placer",
+		"quarryplus:spawner_controller",
+		"quarryplus:creative_generator",
+		"quarryplus:replacer_module",
+		"quarryplus:remove_bedrock_module",
+		"quarryplus:filler_module",
+		"quarryplus:repeat_tick_module"
 	]
 }

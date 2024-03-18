@@ -1,3 +1,17 @@
 {
-	"removed": []
+	"removed": [
+		"item:ironfurnaces:upgrade_iron",
+		"item:ironfurnaces:upgrade_gold",
+		"item:ironfurnaces:upgrade_diamond",
+		"item:ironfurnaces:upgrade_emerald",
+		"item:ironfurnaces:upgrade_obsidian",
+		"item:ironfurnaces:upgrade_crystal",
+		"item:ironfurnaces:upgrade_netherite",
+		"item:ironfurnaces:upgrade_copper",
+		"item:ironfurnaces:upgrade_silver2",
+		"item:ironfurnaces:upgrade_gold2",
+		"item:ironfurnaces:upgrade_iron2",
+		"item:ironfurnaces:upgrade_obsidian2",
+		"item:ironfurnaces:upgrade_silver"
+	]
 }

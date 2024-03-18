@@ -1,3 +1,18 @@
 {
-	"removed": []
+	"removed": [
+		"item:cyclic:crafter",
+		"item:cyclic:uncrafter",
+		"item:cyclic:harvester",
+		"item:cyclic:forester",
+		"item:cyclic:miner",
+		"item:cyclic:collector_fluid",
+		"item:cyclic:generator_item",
+		"item:cyclic:generator_fluid",
+		"item:cyclic:generator_food",
+		"item:cyclic:generator_fuel",
+		"item:cyclic:wireless_energy",
+		"item:cyclic:wireless_item",
+		"item:cyclic:wireless_fluid",
+		"item:cyclic:experience_pylon"
+	]
 }

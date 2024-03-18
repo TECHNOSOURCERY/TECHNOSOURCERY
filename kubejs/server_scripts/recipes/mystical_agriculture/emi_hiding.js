@@ -22,7 +22,14 @@ function emiHideItems(itemsToHide) {
   )
 }
 
-let itemList = []
+let itemList = [
+  "mysticalagriculture:inferium_furnace",
+  "mysticalagriculture:prudentium_furnace",
+  "mysticalagriculture:tertium_furnace",
+  "mysticalagriculture:imperium_furnace",
+  "mysticalagriculture:supremium_furnace",
+  "mysticalagriculture:awakened_supremium_furnace",
+]
 
 emiHideItems(itemList)
 

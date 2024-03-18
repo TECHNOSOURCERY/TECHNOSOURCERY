@@ -29,6 +29,7 @@ let itemList = [
   "/aquaculture:.*_spawn_egg/",
   "/aether:.*_spawn_egg/",
   "/creeperoverhaul:.*_spawn_egg/",
+  "/cataclysm:.*_spawn_egg/",
 ]
 
 emiHideItems(itemList)

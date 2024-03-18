@@ -36,6 +36,7 @@ BlockEvents.rightClicked((events) => {
     remove: [],
     array: [],
     mapping: [],
+    allids: [],
   }
 
   let i = 1
@@ -52,6 +53,7 @@ BlockEvents.rightClicked((events) => {
         itemids.id.push(`${item.id}`)
       }
     }
+    itemids.allids.push(`${item.id}`)
     i++
   })
 

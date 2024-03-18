@@ -1,5 +1,22 @@
 {
 	"removed": [
-		"item:quarryplus:adv_quarry"
+		"item:quarryplus:adv_quarry",
+		"item:quarryplus:solid_fuel_quarry",
+		"item:quarryplus:mining_well",
+		"item:quarryplus:book_mover",
+		"item:quarryplus:replacer",
+		"item:quarryplus:adv_pump",
+		"item:quarryplus:mini_quarry",
+		"item:quarryplus:waterlogged_marker",
+		"item:quarryplus:waterlogged_flex_marker",
+		"item:quarryplus:waterlogged_marker16",
+		"item:quarryplus:placer_plus",
+		"item:quarryplus:remote_placer",
+		"item:quarryplus:spawner_controller",
+		"item:quarryplus:creative_generator",
+		"item:quarryplus:replacer_module",
+		"item:quarryplus:remove_bedrock_module",
+		"item:quarryplus:filler_module",
+		"item:quarryplus:repeat_tick_module"
 	]
 }

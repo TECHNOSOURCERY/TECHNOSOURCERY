@@ -1,3 +1,10 @@
 {
-	"removed": []
+	"removed": [
+		"item:mysticalagriculture:inferium_furnace",
+		"item:mysticalagriculture:prudentium_furnace",
+		"item:mysticalagriculture:tertium_furnace",
+		"item:mysticalagriculture:imperium_furnace",
+		"item:mysticalagriculture:supremium_furnace",
+		"item:mysticalagriculture:awakened_supremium_furnace"
+	]
 }
