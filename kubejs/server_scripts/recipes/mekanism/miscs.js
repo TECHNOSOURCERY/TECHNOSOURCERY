@@ -19,4 +19,22 @@ events.remove({output: 'minecraft:netherite_scrap'})
 		"item":"minecraft:netherite_scrap"
   }
  })
+// enriched netherite
+events.remove({output: 'armorplus:en_netherite'})
+events.custom({
+    type: "mekanism:metallurgic_infusing",
+    chemicalInput: {
+      amount: 80,
+      tag: "mekanism:refined_obsidian",
+    },
+    itemInput: {
+      ingredient: {
+        tag: "forge:ingots/netherite",
+      },
+    },
+    output: {
+      amount: 8,
+      item: "armorplus:en_netherite",
+    },
+  });
 })
