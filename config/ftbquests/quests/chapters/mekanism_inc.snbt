@@ -7,6 +7,15 @@
 	id: "167228F16FD1FDAF"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "17EE8E7C66A66E0F"
+		tasks: [{
+			id: "76246B0A008BD856"
+			item: "mekanism:steel_casing"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Mekanism Inc."
 }

@@ -6,21 +6,132 @@
 	id: "6947EB8C321E2683"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		description: [
-			"Let's freed from the &ldamn&r chests."
-			"You will no longer have to check that damn chest every time you look for an item! &lYAY&r&c"
-		]
-		id: "04E4797ADD82C07B"
-		subtitle: "You can't leave this any more."
-		tasks: [{
-			id: "1189B337B792253E"
-			item: "storagenetwork:inventory"
-			type: "item"
-		}]
-		title: "WELCOME TO THE CLUB"
-		x: -1.5d
-		y: 0.5d
-	}]
+	quests: [
+		{
+			dependencies: ["4173AC11FF93EB8F"]
+			description: [
+				"Let's freed from the &ldamn&r chests."
+				"You will no longer have to check that damn chest every time you look for an item! &lYAY&r&c"
+			]
+			id: "04E4797ADD82C07B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "180010312AFD9D8B"
+				table_id: 7166007536858960058L
+				type: "choice"
+			}]
+			subtitle: "You can't leave this any more."
+			tasks: [{
+				id: "1189B337B792253E"
+				item: "storagenetwork:inventory"
+				type: "item"
+			}]
+			title: "WELCOME TO THE CLUB"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "4173AC11FF93EB8F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35305A5D23594719"
+				table_id: 1279290746270764948L
+				type: "random"
+			}]
+			tasks: [{
+				id: "24A6B0F6EB3B83CF"
+				item: "storagenetwork:kabel"
+				type: "item"
+			}]
+			title: "First step to comfortable"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4173AC11FF93EB8F"]
+			id: "59278739B8A7D6CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42F889B095633627"
+				table_id: 1279290746270764948L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6E48D30C77DBAE7B"
+				item: "storagenetwork:storage_kabel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4173AC11FF93EB8F"]
+			id: "369DC698BDB4669D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65F940EA815CB6B8"
+				table_id: 1279290746270764948L
+				type: "random"
+			}]
+			tasks: [{
+				id: "56C9050114E93591"
+				item: "storagenetwork:import_kabel"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4173AC11FF93EB8F"]
+			id: "650725F5363D0A54"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "634D622E4CDF2E80"
+				table_id: 1279290746270764948L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "5BF13F6C2D331E64"
+				item: "storagenetwork:import_filter_kabel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4173AC11FF93EB8F"]
+			id: "406A51151DFC8575"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38F0DF20D3FD74F4"
+				table_id: 1279290746270764948L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "75F6F74A306117F8"
+				item: "storagenetwork:filter_kabel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4173AC11FF93EB8F"]
+			id: "54B657361BAEB433"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A538173ACC10E3E"
+				table_id: 1279290746270764948L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "675E5EE25EDBF056"
+				item: "storagenetwork:export_kabel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+	]
 	title: "Storage Club"
 }
