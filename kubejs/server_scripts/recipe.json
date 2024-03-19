@@ -1,61 +1,28 @@
 {
 	"id": [
-		"quarryplus:solid_fuel_quarry",
-		"quarryplus:mining_well",
-		"quarryplus:book_mover",
-		"quarryplus:adv_pump",
-		"quarryplus:mini_quarry",
-		"quarryplus:waterlogged_marker",
-		"quarryplus:waterlogged_flex_marker",
-		"quarryplus:waterlogged_marker16",
-		"quarryplus:placer_plus",
-		"quarryplus:remote_placer",
-		"quarryplus:spawner_controller",
-		"quarryplus:creative_generator",
-		"quarryplus:replacer_module",
-		"quarryplus:remove_bedrock_module",
-		"quarryplus:filler_module",
-		"quarryplus:repeat_tick_module"
+		"mekanism:basic_tier_installer",
+		"mekanism:advanced_tier_installer",
+		"mekanism:elite_tier_installer"
 	],
 	"remove": [
-		"quarryplus:replacer"
+		"mekanism:ultimate_tier_installer"
 	],
 	"array": [
 		[
-			"ABC','DEF','GHI','undefinedundefinedundefined','undefinedundefinedundefined','undefined"
+			"ABC"
 		]
 	],
 	"mapping": [
 		{
-			"A": "quarryplus:solid_fuel_quarry",
-			"B": "quarryplus:mining_well",
-			"C": "quarryplus:book_mover",
-			"D": "quarryplus:adv_pump",
-			"E": "quarryplus:mini_quarry",
-			"F": "quarryplus:waterlogged_marker",
-			"G": "quarryplus:waterlogged_flex_marker",
-			"H": "quarryplus:waterlogged_marker16",
-			"I": "quarryplus:placer_plus",
-			"undefined": "quarryplus:repeat_tick_module"
+			"A": "mekanism:basic_tier_installer",
+			"B": "mekanism:advanced_tier_installer",
+			"C": "mekanism:elite_tier_installer"
 		}
 	],
 	"allids": [
-		"quarryplus:solid_fuel_quarry",
-		"quarryplus:mining_well",
-		"quarryplus:book_mover",
-		"quarryplus:replacer",
-		"quarryplus:adv_pump",
-		"quarryplus:mini_quarry",
-		"quarryplus:waterlogged_marker",
-		"quarryplus:waterlogged_flex_marker",
-		"quarryplus:waterlogged_marker16",
-		"quarryplus:placer_plus",
-		"quarryplus:remote_placer",
-		"quarryplus:spawner_controller",
-		"quarryplus:creative_generator",
-		"quarryplus:replacer_module",
-		"quarryplus:remove_bedrock_module",
-		"quarryplus:filler_module",
-		"quarryplus:repeat_tick_module"
+		"mekanism:basic_tier_installer",
+		"mekanism:advanced_tier_installer",
+		"mekanism:elite_tier_installer",
+		"mekanism:ultimate_tier_installer"
 	]
 }

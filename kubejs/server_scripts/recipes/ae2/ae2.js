@@ -6,4 +6,13 @@ ServerEvents.recipes((events) => {
     B: "immersiveengineering:wire_electrum",
     C: "mekanism:hdpe_sheet",
   })
+
+  let remove = [
+    "expatternprovider:infinity_cell",
+    "expatternprovider:infinity_cell",
+  ]
+
+  remove.forEach((item) => {
+    events.remove({output: item})
+  })
 })

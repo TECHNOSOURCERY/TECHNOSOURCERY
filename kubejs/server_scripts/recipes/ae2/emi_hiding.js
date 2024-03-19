@@ -19,7 +19,11 @@ function emiHideItems(itemsToHide) {
   JsonIO.write("kubejs/assets/emi/index/stacks/emi_hidden_ae2.json", obj)
 }
 
-let itemList = ["ae2:facade"]
+let itemList = [
+  "ae2:facade",
+  "expatternprovider:infinity_cell",
+  "expatternprovider:infinity_cell",
+]
 
 emiHideItems(itemList)
 

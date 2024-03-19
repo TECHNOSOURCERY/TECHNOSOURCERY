@@ -24,7 +24,7 @@ let itemList = [
   "mekanism:creative_chemical_tank",
   "mekanism:creative_fluid_tank",
   "/mekanism:.*_bin/",
-  "/mekanism:.*_factory/",
+  // "/mekanism:.*_factory/",
   "/mekanismadditions:.*_spawn_egg/",
 ]
 

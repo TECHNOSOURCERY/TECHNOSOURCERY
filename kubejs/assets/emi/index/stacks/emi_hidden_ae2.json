@@ -1,5 +1,7 @@
 {
 	"removed": [
-		"item:ae2:facade"
+		"item:ae2:facade",
+		"item:expatternprovider:infinity_cell",
+		"item:expatternprovider:infinity_cell"
 	]
 }
