@@ -102,14 +102,14 @@ ServerEvents.recipes((events) => {
     },
   })
 
-  //Basic Tier
+  //Basic Tier factory block
   for (var i = 0; i < 9; i++) {
     events.shapeless(Item.of(factory.tier1[i], 1), [
       factory.machines[i],
       "mekanism:basic_tier_installer",
     ])
   }
-  //Advanced Tier
+  //Advanced Tier factory block
   for (var i = 0; i < 9; i++) {
     events.shapeless(Item.of(factory.tier2[i], 1), [
       factory.tier1[i],
@@ -117,7 +117,7 @@ ServerEvents.recipes((events) => {
     ])
   }
 
-  //Elite Tier
+  //Elite Tier factory block
   for (var i = 0; i < 9; i++) {
     events.shapeless(Item.of(factory.tier3[i], 1), [
       factory.tier2[i],
@@ -125,7 +125,7 @@ ServerEvents.recipes((events) => {
     ])
   }
 
-  //Ultimate Tier
+  //Ultimate Tier factory block
   for (var i = 0; i < 9; i++) {
     events.shapeless(Item.of(factory.tier4[i], 1), [
       factory.tier3[i],

@@ -60,6 +60,7 @@ config/chiselsandbits-client.toml
 config/chiselsandbits-common.toml
 config/ae2/client.json
 ftp_upload.log*
+kubejs/server_scripts/recipe.json
 
 # config
 config/emi.css

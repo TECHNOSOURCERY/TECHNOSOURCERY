@@ -1,41 +1,13 @@
 {
-	"id": [
-		"thermal:energy_cell",
-		"mekanism:elite_control_circuit",
-		"thermal:energy_cell",
-		"thermal:upgrade_augment_3",
-		"ae2:engineering_processor",
-		"thermal:upgrade_augment_3",
-		"thermal:energy_cell",
-		"mekanism:elite_control_circuit",
-		"thermal:energy_cell"
-	],
-	"remove": [
-		"mekanism:elite_tier_installer"
-	],
+	"id": [],
+	"remove": [],
 	"array": [
 		[
-			"ABA','CDC','ABA"
+			""
 		]
 	],
 	"mapping": [
-		{
-			"A": "thermal:energy_cell",
-			"B": "mekanism:elite_control_circuit",
-			"C": "thermal:upgrade_augment_3",
-			"D": "ae2:engineering_processor"
-		}
+		{}
 	],
-	"allids": [
-		"thermal:energy_cell",
-		"mekanism:elite_control_circuit",
-		"thermal:energy_cell",
-		"mekanism:elite_tier_installer",
-		"thermal:upgrade_augment_3",
-		"ae2:engineering_processor",
-		"thermal:upgrade_augment_3",
-		"thermal:energy_cell",
-		"mekanism:elite_control_circuit",
-		"thermal:energy_cell"
-	]
+	"allids": []
 }
