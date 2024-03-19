@@ -29,6 +29,79 @@ ServerEvents.recipes((events) => {
     }
   )
 
+  //Basic Tier Installer
+  events.remove({output: "mekanism:basic_tier_installer"})
+  events.shaped(
+    Item.of("mekanism:basic_tier_installer"),
+    ["ABA", "CDC", "EBE"],
+    {
+      A: "mekanism:hdpe_sheet",
+      B: "mekanism:basic_control_circuit",
+      C: "thermal:steel_gear",
+      D: "immersiveengineering:circuit_board",
+      E: "thermal:lumium_plate",
+    }
+  )
+  //Advanced Tier Installer
+  events.remove({output: "mekanism:advanced_tier_installer"})
+  events.shaped(
+    Item.of("mekanism:advanced_tier_installer"),
+    ["ABA", "CDC", "ABA"],
+    {
+      A: "mekanism:hdpe_sheet",
+      B: "mekanism:advanced_control_circuit",
+      C: "thermal:signalum_gear",
+      D: "thermal:upgrade_augment_2",
+    }
+  )
+  //Elite Tier Installer
+  events.remove({output: "mekanism:elite_tier_installer"})
+  events.shaped(
+    Item.of("mekanism:elite_tier_installer"),
+    ["ABA", "CDC", "ABA"],
+    {
+      A: "thermal:energy_cell",
+      B: "mekanism:elite_control_circuit",
+      C: "thermal:upgrade_augment_3",
+      D: "ae2:engineering_processor",
+    }
+  )
+  //Ultimate Tier Installer
+  events.remove({output: "mekanism:ultimate_tier_installer"})
+  events.custom({
+    type: "extendedcrafting:shaped_table",
+    pattern: ["ABBBA", "CDEFC", "GEHEG", "CFEDC", "ABBBA"],
+    key: {
+      A: {
+        item: "thermal:xp_crystal",
+      },
+      B: {
+        item: "mekanism:hdpe_sheet",
+      },
+      C: {
+        item: "megacells:cell_component_4m",
+      },
+      D: {
+        item: "minecraft:wither_skeleton_skull",
+      },
+      E: {
+        item: "mekanism:ultimate_control_circuit",
+      },
+      F: {
+        item: "thermal:upgrade_augment_3",
+      },
+      G: {
+        item: "mekanism:alloy_atomic",
+      },
+      H: {
+        item: "enderio:weather_crystal",
+      },
+    },
+    result: {
+      item: "mekanism:ultimate_tier_installer",
+    },
+  })
+
   //Basic Tier
   for (var i = 0; i < 9; i++) {
     events.shapeless(Item.of(factory.tier1[i], 1), [
@@ -44,19 +117,19 @@ ServerEvents.recipes((events) => {
     ])
   }
 
-    //Elite Tier
-    for (var i = 0; i < 9; i++) {
-      events.shapeless(Item.of(factory.tier3[i], 1), [
-        factory.tier2[i],
-        "mekanism:elite_tier_installer",
-      ])
-    }
+  //Elite Tier
+  for (var i = 0; i < 9; i++) {
+    events.shapeless(Item.of(factory.tier3[i], 1), [
+      factory.tier2[i],
+      "mekanism:elite_tier_installer",
+    ])
+  }
 
-      //Ultimate Tier
+  //Ultimate Tier
   for (var i = 0; i < 9; i++) {
     events.shapeless(Item.of(factory.tier4[i], 1), [
       factory.tier3[i],
-      "mekanism:ultimate_tier_installer"
+      "mekanism:ultimate_tier_installer",
     ])
   }
 })
