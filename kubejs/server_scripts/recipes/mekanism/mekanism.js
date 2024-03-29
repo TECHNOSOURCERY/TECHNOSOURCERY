@@ -66,6 +66,7 @@ ServerEvents.recipes((events) => {
       D: "ae2:engineering_processor",
     }
   )
+
   //Ultimate Tier Installer
   events.remove({output: "mekanism:ultimate_tier_installer"})
   events.custom({

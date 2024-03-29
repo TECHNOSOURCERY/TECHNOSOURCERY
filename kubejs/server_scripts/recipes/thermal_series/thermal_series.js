@@ -1,5 +1,4 @@
 ServerEvents.recipes((events) => {
-  events.remove({output: ""})
   // Machine Frame
   events.remove({output: "thermal:machine_frame"})
   events.shaped(Item.of("thermal:machine_frame"), ["AAA", "ABA", "AAA"], {

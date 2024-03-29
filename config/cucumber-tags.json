@@ -4,7 +4,7 @@
   "forge:gems/peridot": "moremekanismprocessing:gem_peridot",
   "forge:gems/ruby": "moremekanismprocessing:gem_ruby",
   "forge:ingots/titanium": "moremekanismprocessing:titanium_ingot",
-  "forge:ingots/graphite": "null",
+  "forge:ingots/graphite": "bigreactors:graphite_ingot",
   "forge:ingots/platinum": "moremekanismprocessing:platinum_ingot",
   "forge:rubber": "null",
   "forge:dusts/niter": "moremekanismprocessing:dust_niter",
