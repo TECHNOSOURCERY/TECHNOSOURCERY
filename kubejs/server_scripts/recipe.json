@@ -1,41 +1,13 @@
 {
-	"id": [
-		"minecraft:oak_log",
-		"minecraft:powered_rail",
-		"minecraft:air",
-		"minecraft:rail",
-		"minecraft:air",
-		"minecraft:air",
-		"minecraft:air",
-		"minecraft:air",
-		"minecraft:air"
-	],
-	"remove": [
-		"mekanism:induction_port"
-	],
+	"id": [],
+	"remove": [],
 	"array": [
 		[
-			"ABC','DCC','CCC"
+			""
 		]
 	],
 	"mapping": [
-		{
-			"A": "minecraft:oak_log",
-			"B": "minecraft:powered_rail",
-			"C": "minecraft:air",
-			"D": "minecraft:rail"
-		}
+		{}
 	],
-	"allids": [
-		"minecraft:oak_log",
-		"minecraft:powered_rail",
-		"storagedrawers:creative_vending_upgrade",
-		"mekanism:induction_port",
-		"minecraft:rail",
-		"storagedrawers:creative_vending_upgrade",
-		"storagedrawers:creative_vending_upgrade",
-		"storagedrawers:creative_vending_upgrade",
-		"storagedrawers:creative_vending_upgrade",
-		"storagedrawers:creative_vending_upgrade"
-	]
+	"allids": []
 }
