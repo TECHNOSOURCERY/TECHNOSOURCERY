@@ -28,7 +28,7 @@ pack_edit_mode = true
 			use_language_files = false
 
 	[modules.public_server_list]
-		enabled = true
+		enabled = false
 
 		#Modpack Configs
 		[modules.public_server_list.pack]

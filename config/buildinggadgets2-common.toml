@@ -12,7 +12,7 @@
 	[power.building_gadget]
 		#Maximum power for the Building Gadget
 		#Range: > 0
-		maxPower = 500000
+		maxPower = 5000000
 		#Base cost per block placed
 		#Range: > 0
 		baseCost = 50
@@ -21,7 +21,7 @@
 	[power.exchanging_gadget]
 		#Maximum power for the Exchanging Gadget
 		#Range: > 0
-		maxPower = 500000
+		maxPower = 5000000
 		#Base cost per block exchanged
 		#Range: > 0
 		baseCost = 100
@@ -30,7 +30,7 @@
 	[power.cutpaste_gadget]
 		#Maximum power for the Cut and Paste Gadget
 		#Range: > 0
-		maxPower = 5000000
+		maxPower = 50000000
 		#(LEGACY) NO LONGER USED
 		#Range: > 0
 		baseCost = 200
@@ -42,7 +42,7 @@
 	[power.copypaste_gadget]
 		#Maximum power for the Copy and Paste Gadget
 		#Range: > 0
-		maxPower = 1000000
+		maxPower = 10000000
 		#Base cost per block Paste (Copy is Free)
 		#Range: > 0
 		baseCost = 50
@@ -51,7 +51,7 @@
 	[power.destruction_gadget]
 		#Maximum power for the Destruction Gadget
 		#Range: > 0
-		maxPower = 1000000
+		maxPower = 10000000
 		#Base cost per block Destroyed
 		#Range: > 0
 		baseCost = 200

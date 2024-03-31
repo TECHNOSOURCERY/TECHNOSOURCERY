@@ -13,7 +13,7 @@
 	powerCapacity = 5000000
 	#How much FE/t the Crafting Core should use when crafting by default.
 	#Range: > 0
-	powerRate = 500
+	powerRate = 5000
 
 #Settings for the Extended Crafting Tables.
 ["Table Crafting"]
@@ -28,7 +28,7 @@
 	autoTablePowerCapacity = 500000
 	#How much FE the Auto Crafting Tables should use when crafting.
 	#Range: > 0
-	autoTablePowerRate = 500
+	autoTablePowerRate = 5000
 	#How much FE the Auto Crafting Tables should use when auto inserting items.
 	#Range: > 0
 	autoTableInsertPowerRate = 100
@@ -42,7 +42,7 @@
 	powerCapacity = 10000000
 	#How much FE/t the Quantum Compressor should use when crafting by default.
 	#Range: > 0
-	powerRate = 5000
+	powerRate = 50000
 
 #Settings for the Ender Crafter.
 ["Ender Crafting"]
@@ -52,7 +52,7 @@
 	autoCrafterEnabled = true
 	#How long a single Ender Crafter crafting operation should take (in seconds) by default.
 	#Range: > 1
-	defaultTimeRequired = 60
+	defaultTimeRequired = 45
 	#How much a single Ender Alternator should speed up a craft. This is a percentage of the time required.
 	#Range: 0.0 ~ 1.0
 	alternatorEffectiveness = 0.01
@@ -61,7 +61,7 @@
 	autoCrafterPowerCapacity = 500000
 	#How much FE the Auto Ender Crafter should use when auto inserting items.
 	#Range: > 0
-	autoCrafterInsertPowerRate = 100
+	autoCrafterInsertPowerRate = 1000
 
 #Settings for the Flux Crafter.
 ["Flux Crafting"]
@@ -71,7 +71,7 @@
 	autoCrafterEnabled = true
 	#How much FE/t the Flux Crafter should pull from each Flux Alternator when crafting by default.
 	#Range: > 0
-	defaultPowerRate = 400
+	defaultPowerRate = 4000
 	#How much FE the Flux Alternator should hold.
 	#Range: > 0
 	powerCapacity = 80000
@@ -80,7 +80,7 @@
 	autoCrafterPowerCapacity = 500000
 	#How much FE the Auto Flux Crafter should use when auto inserting items.
 	#Range: > 0
-	autoCrafterInsertPowerRate = 100
+	autoCrafterInsertPowerRate = 500
 
 #Settings for Singularities.
 [Singularities]
@@ -88,10 +88,10 @@
 	enabled = true
 	#The default amount of items required to create a Singularity.
 	#Range: > 1
-	defaultMaterialsRequired = 10000
+	defaultMaterialsRequired = 42800
 	#The default amount of FE required to create a Singularity.
 	#Range: > 0
-	defaultPowerRequired = 5000000
+	defaultPowerRequired = 10000000
 	#Should default recipes be generated for Singularities?
 	defaultRecipes = true
 	#The item to use as the Catalyst in default Singularity recipes.

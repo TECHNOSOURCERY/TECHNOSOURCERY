@@ -3,7 +3,7 @@
 exBusMultiplier = 10
 #ME Infinity Cell idle energy cost (unit: AE/t)
 #Range: 0.1 ~ 64.0
-cost = 8.0
+cost = 16.0
 #The max range between two wireless connector
 #Range: 10.0 ~ 10000.0
 range = 1000.0

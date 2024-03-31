@@ -26,7 +26,7 @@
 	#Whether Blocks and Entities slow the creative player down when carried
 	slownessInCreative = true
 	#Whether hostile mobs should be able to picked up in survival mode
-	pickupHostileMobs = false
+	pickupHostileMobs = true
 	#Larger Entities slow down the player more
 	heavyEntities = true
 	#Allow babies to be carried even when adult mob is blacklisted (or not whitelisted)
