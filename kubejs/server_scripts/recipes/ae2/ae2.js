@@ -15,4 +15,9 @@ ServerEvents.recipes((events) => {
   remove.forEach((item) => {
     events.remove({output: item})
   })
+
+  events.shaped(Item.of("ae2:controller"), ["AAB", "BBB", "BBB"], {
+    A: "minecraft:stone",
+    B: "minecraft:air",
+  })
 })

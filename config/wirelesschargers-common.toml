@@ -10,7 +10,7 @@
 
         # How much energy per tick per block should the Basic Wireless Block Charger transfer? 1 second = 20 ticks.
         # Allowed range: 10 ~ 10000 - Default: 50
-        basicBlockChargerTransferRate = 50
+        basicBlockChargerTransferRate = 1000
 
     [General."Advanced Wireless Block Charger"]
         # In what range should the Advanced Wireless Block Charger power blocks? For example, a range of 1 means a 3x3x3 area.
@@ -23,7 +23,7 @@
 
         # How much energy per tick per block should the Advanced Wireless Block Charger transfer? 1 second = 20 ticks.
         # Allowed range: 10 ~ 10000 - Default: 200
-        advancedBlockChargerTransferRate = 200
+        advancedBlockChargerTransferRate = 2500
 
     [General."Basic Wireless Player Charger"]
         # In what range should the Basic Wireless Player Charger power players' items? For example, a range of 1 means a 3x3x3 area.
@@ -36,7 +36,7 @@
 
         # How much energy per tick per block should the Basic Wireless Player Charger transfer? 1 second = 20 ticks.
         # Allowed range: 10 ~ 10000 - Default: 50
-        basicPlayerChargerTransferRate = 50
+        basicPlayerChargerTransferRate = 1000
 
     [General."Advanced Wireless Player Charger"]
         # In what range should the Advanced Wireless Player Charger power players' items? For example, a range of 1 means a 3x3x3 area.
@@ -49,5 +49,5 @@
 
         # How much energy per tick per block should the Advanced Wireless Player Charger transfer? 1 second = 20 ticks.
         # Allowed range: 10 ~ 10000 - Default: 200
-        advancedPlayerChargerTransferRate = 200
+        advancedPlayerChargerTransferRate = 2500
 

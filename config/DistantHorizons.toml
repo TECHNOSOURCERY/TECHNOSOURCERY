@@ -25,7 +25,7 @@ _version = 2
 				maxHorizontalResolution = "BLOCK"
 				# The radius of the mod's render distance. (measured in chunks)
 				# 
-				lodChunkRenderDistanceRadius = 128
+				lodChunkRenderDistanceRadius = 256
 				# This indicates how well LODs will represent 
 				# overhangs, caves, floating islands, etc. 
 				# Higher options will make the world more accurate, butwill increase memory and GPU usage. 
@@ -33,12 +33,12 @@ _version = 2
 				# Lowest Quality: HEIGHT_MAP
 				# Highest Quality: EXTREME
 				# 
-				verticalQuality = "MEDIUM"
+				verticalQuality = "HIGH"
 				# This indicates how quickly LODs decrease in quality the further away they are. 
 				# Higher settings will render higher quality fake chunks farther away, 
 				# but will increase memory and GPU usage.
 				# 
-				horizontalQuality = "MEDIUM"
+				horizontalQuality = "HIGH"
 				# How should LOD transparency be handled. 
 				# 
 				# COMPLETE: LODs will render transparent. 
@@ -372,7 +372,7 @@ _version = 2
 			# Higher values mean the matching is more strict.
 			# 
 			# 
-			multiverseSimilarityRequiredPercent = 0.0
+			multiverseSimilarityRequiredPercent = 1.0
 
 		[client.advanced.lodBuilding]
 			# Determines how long must pass between LOD chunk updates before another. 
@@ -408,7 +408,7 @@ _version = 2
 			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
 			# 
-			numberOfWorldGenerationThreads = 2
+			numberOfWorldGenerationThreads = 3
 			# If this value is less than 1.0, it will be treated as a percentage 
 			# of time each thread can run before going idle. 
 			# 
@@ -428,7 +428,7 @@ _version = 2
 			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
 			# 
-			numberOfFileHandlerThreads = 1
+			numberOfFileHandlerThreads = 2
 			# If this value is less than 1.0, it will be treated as a percentage 
 			# of time each thread can run before going idle. 
 			# 
@@ -436,7 +436,7 @@ _version = 2
 			# is already set to 1 for the given option, or more finely 
 			# tune CPU performance.
 			# 
-			runTimeRatioForFileHandlerThreads = 0.5
+			runTimeRatioForFileHandlerThreads = 0.75
 			# How many threads should be used when building LODs? 
 			# 
 			# These threads run when terrain is generated, when
@@ -447,7 +447,7 @@ _version = 2
 			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
 			# 
-			numberOfLodBuilderThreads = 1
+			numberOfLodBuilderThreads = 2
 			# If this value is less than 1.0, it will be treated as a percentage 
 			# of time each thread can run before going idle. 
 			# 
@@ -455,7 +455,7 @@ _version = 2
 			# is already set to 1 for the given option, or more finely 
 			# tune CPU performance.
 			# 
-			runTimeRatioForLodBuilderThreads = 0.5
+			runTimeRatioForLodBuilderThreads = 0.75
 			# Should only be disabled if deadlock occurs and LODs refuse to update. 
 			# This will cause CPU usage to drastically increase for the Lod Builder threads. 
 			# 
@@ -518,7 +518,7 @@ _version = 2
 			enableSilentUpdates = false
 			#  If DH should use the nightly (provided by Gitlab), or stable (provided by Modrinth) build
 			# 
-			updateBranch = "STABLE"
+			updateBranch = "NIGHTLY"
 
 		[client.advanced.logging]
 			# If enabled, the mod will log information about the world generation process. 
